@@ -21,13 +21,13 @@ duration_analysis_=duration_analysis.sort_values(by='操作日期',ascending=Fal
 st.expander("一、MIRA时效").dataframe(daily_summary_ata_)
 st.markdown("---")
 
-st.expander("二、每天操作量和成本").dataframe(overall_data)
+st.expander("二、每天操作量和成本").dataframe(overall_data_)
 st.markdown("---")
 
-st.expander("三、每周操作量和成本").dataframe(weekly_analysis)
+st.expander("三、每周操作量和成本").dataframe(weekly_analysis_)
 st.markdown("---")
 
-st.expander("四、每周工人成本统计").dataframe(recent4)
+st.expander("四、每周工人成本统计").dataframe(recent4_)
 st.markdown("---")
 
-st.expander("五、工作饱和度估算").dataframe(duration_analysis)
+st.expander("五、工作饱和度估算").dataframe(duration_analysis_)
